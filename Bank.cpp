@@ -68,7 +68,7 @@ void Bank::Departure(){
 
     while (j < N){
         if (!(Teller[j].IsEmpty()))
-            std::cout << "Q[" << j << "] =";
+            std::cout << "Q[" << j << "] = ";
         Teller[j].Print();
         j++;
     }

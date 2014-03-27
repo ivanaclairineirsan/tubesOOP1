@@ -10,7 +10,7 @@ int main()
     cin >> jumlahTeller; //baca masukan jumlah teller
     Bank BENI(jumlahTeller);
     DateTime WaktuTutup;
-    WaktuTutup.BacaJamTutupBank();
+    WaktuTutup.ReadDT();
     Event Event2;
     Event2.BacaEvent();
     while (Event2.GetDT().DTsebelum(WaktuTutup) == true)

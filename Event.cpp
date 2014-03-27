@@ -37,12 +37,12 @@ void Event::BacaEvent()
 //dibuat dengan asumsi user selalu memasukkan format yang benar, yaitu MM-DD-YY;HH;JJ:MM:SS C (int)
 {
     DT.ReadDT();
-
+/*
     char kode1;
 	cin >> kode1; //ambil bagian kodenya
 
-    DT = DateTime1;
-    kode = kode1;
+    kode = kode1;*/
+    cin >> kode;
 }
 
 char Event::getkode()
