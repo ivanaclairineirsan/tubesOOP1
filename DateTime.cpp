@@ -43,7 +43,7 @@ void DateTime::PrintDateTime()
     cout << date.GetDay() << ':' << date.GetMonth() << ':' << date.GetYear() << ';' << time.GetHour() << ':' << time.GetMinute() << ':' << time.GetSecond() << endl;
 }
 
-void DateTime::BacaJamTutupBank()
+void DateTime::ReadDT()
 {
     string S;
     cin >> S; //baca masukan jam bank tutup

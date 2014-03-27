@@ -10,9 +10,10 @@ class DateTime{
 		DateTime(const DateTime&); //cctor
 		~DateTime(); //dtor
         DateTime& operator=(const DateTime&);
+        
 		bool DTsebelum(DateTime); //untuk membandingkan DateTime (digunakan untuk membandingkan jam input dengan jam tutup
         void PrintDateTime();
-        void BacaJamTutupBank();
+        void ReadDT();
 
 
 	private:
